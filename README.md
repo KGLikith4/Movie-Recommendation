@@ -82,9 +82,9 @@ Feel free to **fork** this repository, **improve the UI**, or **enhance the reco
 ---
 
 ## 📧 Contact  
-💡 **Created by [Your Name]**  
-📩 Email: your-email@example.com  
-🌍 GitHub: [Your GitHub Profile](https://github.com/your-username)  
+💡 **Created by [K G LIKITH]**  
+📩 Email: 22btrcl073@jainuniversity.ac.in  
+🌍 GitHub: [Your GitHub Profile](https://github.com/KGLikith4)  
 
 ---
 
