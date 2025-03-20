@@ -62,6 +62,52 @@ def show_combined_features(movie_name, selected_attributes):
     return movie_data.T.reset_index().rename(columns={"index": "Attribute", 0: "Details"})
 
 # Streamlit Web App UI
+st.markdown(
+    """
+    <style>
+        /* Background color */
+        .stApp { background-color: #2E004F; }  /* Dark Purple */
+
+        /* Title styling */
+        h1 { 
+            color: #FFD700 !important;  /* Bright Yellow */
+            text-align: center;
+            font-size: 40px;
+        }
+
+        /* Sidebar styling */
+        .css-1d391kg { background-color: #4B002E !important; }  /* Blood Red */
+
+        /* Buttons */
+        .stButton>button { 
+            background-color: #8B0000 !important; /* Blood Red */
+            color: #FFD700 !important;  /* Bright Yellow */
+            border-radius: 10px; 
+            font-size: 16px; 
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+        .stButton>button:hover {
+            background-color: #FF0000 !important; /* Brighter Blood Red */
+        }
+
+        /* Dataframe Table */
+        .dataframe th {
+            background-color: #8B0000 !important;  /* Blood Red */
+            color: #FFD700 !important;  /* Bright Yellow */
+        }
+
+        /* Movie List Styling */
+        .movie-list {
+            font-size: 18px;
+            color: #FFD700;  /* Bright Yellow */
+            margin-left: 10px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.markdown("<h1>🍿 Movie Recommendation & Q&A System</h1>", unsafe_allow_html=True)
 
 st.sidebar.header("📌 Select an option:")
